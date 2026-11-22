@@ -23,7 +23,10 @@ Or add this repository as a Codex marketplace, then install the plugin:
 ```bash
 codex plugin marketplace add Graphify-Labs/graphify-codex-plugin
 codex plugin add graphify@graphify
+codex mcp login graphify
 ```
+
+The last command opens the browser sign-in. Without it, Codex lists graphify as needing authentication. Start a new session afterwards so the tools load.
 
 The second command follows OpenAI's `codex plugin add PLUGIN_NAME@MARKETPLACE_NAME` form. The marketplace name in this repo is `graphify`.
 
